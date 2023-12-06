@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swell</title>
+  <style>
+    .button-div {
+      position: fixed;
+      display: grid;
+      width: 500px;
+      height: 500px;
+      margin-left: 700px;
+      margin-top: 250px;
+    }
+    .button {
+      border-radius: 100px;
+      border-width: 10px;
+      transition-duration: .9s;
+      transition-property: all;
+      border-style: solid;
+    }
+
+    .button:hover {
+      cursor: pointer;
+      transform: rotate(180deg) scale(4);
+      background-color: lightblue;
+    }
+
+    .button:active {
+      border-width: 50px;
+      border-style: groove;
+      transform: rotate(10000000000deg);
+    }
+
+    .button-text {
+      font-size: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-div">
+
+    <button class="button"></button>
+
+    <h1>what is this...</h1>
+  </div>
+</body>
+</html>
